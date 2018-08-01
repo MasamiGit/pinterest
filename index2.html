@@ -64,7 +64,7 @@
 		border-left: 0;
 	}
 	.box10{
-		width:400px;
+		width:320px;
 		float:left;
 		border: solid 1px #847F7F;
 		border-left: 0;
@@ -73,6 +73,17 @@
 </head>
 <body>
 	<h1>SVG document</h1>
+	<div class="box01">
+		<svg width="400" height="400" viewBox="0 0 400 400">
+		<rect height="100" width="200" x="20" y="20" style="fill:blue" />
+		<rect height="100" width="200" x="40" y="40" style="fill:yellow" />
+		<rect height="200" width="200" x="60" y="60" style="fill:pink" />
+		<rect height="100" width="100" x="80" y="80" style="fill:#F63718" />
+		<rect height="100" width="100" x="100" y="100" style="fill:#fff" />
+		<rect height="100" width="100" x="120" y=120 style="fill:#F63718" />
+		<rect height="100" width="100" x="140" y="140" style="fill:#fff" />
+	</svg>
+	</div>
 	<div class="box01">
 		<svg width="400" height="400" viewBox="0 0 400 400">
 		<rect height="100" width="200" x="20" y="20" style="fill:blue" />
@@ -125,8 +136,13 @@
 	</svg>
 	</div>
 	<div class="box10">
-		<svg width="400" height="400" viewBox="0 0 400 400">
-  			<path d="M 25,75 Q 50,150 75,100 T 150,150" stroke="blue" stroke-width="5" style="fill:none" />
+		<svg width="320" height="320" vierdion="1.1" xmlns="http://www.w3.org/2000/svg">
+  			<path d="M 10 315
+  			L 110 215
+  			A 30 50 0 0 1 162.55 162.45
+  			L 172.55 152.45
+  			A 30 50 -45 0 1 215.1 109.9
+  			L 315 10" stroke="blue" fill="green" stroke-width="2" fill-opacity="0.5" />
 	</svg>
 	</div>
 </body>
